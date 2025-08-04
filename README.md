@@ -27,26 +27,26 @@ This project implements a UNet-based image segmentation model to colorize polygo
 
 ---
 
-## 🚀 Setup Instructions
+🚀 Setup Instructions
 
-1. **Clone the repository** and navigate to the project folder:
+1. Clone the repository** and navigate to the project folder:
    ```bash
-   git clone <repo_url>
-   cd <project_folder>
+   git clone <https://github.com/bharath-github2019/Ayna-ML_assigenmet/>
+   cd <UNet.py>
    ```
 
-2. **Install dependencies:**
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set up Weights & Biases (wandb):**
+3. Set up Weights & Biases (wandb):
    ```bash
    pip install wandb
    wandb login
    ```
 
-4. **Run Training:**
+4. Run Training:
    ```python
    from UNet import UNet
    from train import train_model
@@ -68,13 +68,13 @@ This project implements a UNet-based image segmentation model to colorize polygo
 
 ---
 
-## 🧠 Model
+🧠 Model
 
 The model used is a standard **UNet** architecture designed for semantic segmentation tasks. The final layer outputs class logits for each pixel, enabling colorization based on polygon types and color names.
 
 ---
 
-## 📊 Tracking with wandb
+📊 Tracking with wandb
 
 Training metrics including loss curves are logged to Weights & Biases. Visit your wandb dashboard to visualize experiment runs:
 
@@ -82,7 +82,7 @@ Training metrics including loss curves are logged to Weights & Biases. Visit you
 
 ---
 
-## 📦 Dependencies
+📦 Dependencies
 
 - Python 3.8+
 - PyTorch
@@ -99,7 +99,7 @@ pip install -r requirements.txt
 
 ---
 
-## ✅ Deliverables
+✅ Deliverables
 
 - [x] UNet model implementation (`UNet.py`)
 - [x] Training script with logging (`train.py`)
