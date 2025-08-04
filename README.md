@@ -31,8 +31,8 @@ This project implements a UNet-based image segmentation model to colorize polygo
 
 1. Clone the repository** and navigate to the project folder:
    ```bash
-   git clone <https://github.com/bharath-github2019/Ayna-ML_assigenmet/>
-   cd <UNet.py>
+   git clone https://github.com/bharath-github2019/Ayna-ML_assigenmet/
+   cd UNet.py
    ```
 
 2. Install dependencies:
